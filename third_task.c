@@ -14,7 +14,14 @@ Hint: if you have used nested loops, try to simplify your solution! A single loo
 
 int main()
 {
-
+double factoriel=1;
+double e=1;
+for(int i=1;i<20; i++){
+    factoriel=factoriel*i;
+    e=e+1/factoriel;
+    
+}
+printf("E is %lf",e);
 
 
 }
