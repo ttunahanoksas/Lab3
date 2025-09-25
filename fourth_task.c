@@ -12,6 +12,17 @@ Identify the repeating pattern in the formula, and write a program to evaluate i
 
 int main(){
 
+double pi=1;
+double bottom;
+double top;
 
-return 0;
+for (int i=1;i<100;i++){
+    top=2*i;
+    bottom=(2*i-1)*(2*i+1);
+    pi*=top/bottom;
+    pi*=2;
+}
+    
+printf("%lf",pi);
+
 }
