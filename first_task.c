@@ -16,6 +16,21 @@ Print the pruduct.*/
 
 int main(){
 
+#include <stdio.h>
 
+int main() {
+int n=10; 
+int i;
+int factorial = 1;
+
+    for (i = 1; i <= n; i++) {
+        factorial *= i;
+    }
+
+    printf("%d",factorial);
+
+  
+    
+}
 
 }
